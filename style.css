@@ -26,12 +26,56 @@ body {
     border: 10px double black;
 }
 
-/* .div {
-    
-} */
-
 .controls {
     width: 100px;
     height: 200px;
-    background-color: red;;
+}
+
+.color-palette {
+    display: grid;
+    height: 150px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.red {
+    background-color: red;
+    margin: 2px;    
+}
+
+.yellow {
+    background-color: yellow;
+    margin: 2px;
+}
+
+.blue {
+    background-color: blue;
+    margin: 2px;
+}
+
+.orange {
+    background-color: orange;
+    margin: 2px;
+}
+
+.green {
+    background-color: green;
+    margin: 2px;
+}
+
+.violet {
+    background-color: violet;
+    margin: 2px;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 50px;
+}
+
+.btns > button {
+    width: 50%;
+    border-radius: 2px;
 }
