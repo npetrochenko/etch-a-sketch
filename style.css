@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.drawing-field {
+    width: 640px;
+    height: 640px;
+    margin: 0 30px;
+    border: 10px double black;
+}
+
+/* .div {
+    
+} */
+
+.controls {
+    width: 100px;
+    height: 200px;
+    background-color: red;;
+}
